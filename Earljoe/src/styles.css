@@ -1,0 +1,21 @@
+:root {
+  --background-color: #F7FAFC;
+  --text-color: #2D3748;
+  --primary-color: #2B6CB0;
+  --secondary-color: #E2E8F0;
+  --accent-color: #3182CE;
+}
+
+.dark-theme {
+  --background-color: #010A1A;
+  --text-color: #FFFFFF;
+  --primary-color: #4A90E2;
+  --secondary-color: #2D3748;
+  --accent-color: #61DAFB;
+}
+
+body {
+  background-color: var(--background-color);
+  color: var(--text-color);
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
